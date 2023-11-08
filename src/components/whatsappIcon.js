@@ -13,7 +13,7 @@ const whatsAppIcon = () => {
       <img
         src={whatsappIcon}
         alt="whatsapp icon"
-        className="fixed bottom-6 right-6 sm:w-24 sm:h-24 w-16 h-16 z-10"
+        className="fixed bottom-6 left-6 sm:w-24 sm:h-24 w-16 h-16 z-10"
       ></img>
     </Link>
   );
