@@ -4,5 +4,11 @@ module.exports = {
         'gatsby-plugin-sharp',
         'gatsby-plugin-postcss',
         'gatsby-transformer-sharp',
+        {
+            resolve: 'gatsby-plugin-manifest',
+            options: {
+                icon: 'src/images/logoSemNome.png',
+            }
+        }
     ]
 }
