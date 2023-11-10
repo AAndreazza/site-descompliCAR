@@ -1,4 +1,5 @@
 import React from 'react'
+import Seo from '../components/seo'
 import WhatsappIcon from '../components/whatsappIcon'
 import Hero from '../components/hero'
 import SobreDescompliCar from '../components/sobreDescompliCar'
@@ -10,7 +11,8 @@ import Footer from '../components/footer'
 
 const Index = () => {
     return(
-        <div>
+        <div className='bg-fundoGeral'>
+            <Seo title='DescompliCAR' description='incluir descrição...' />
             <WhatsappIcon />
             <Hero />
             <SobreDescompliCar />
