@@ -6,6 +6,7 @@ import Instagram from '../components/instagram'
 import SobreVinicius from '../components/sobreVinicius'
 import CtaSection from '../components/ctaSection'
 import CtaSection2 from '../components/ctaSection2'
+import Footer from '../components/footer'
 
 const Index = () => {
     return(
@@ -16,8 +17,7 @@ const Index = () => {
             <SobreVinicius />
             <Instagram />
             <CtaSection />
-            
-            
+            <Footer />           
         </div>
     )
 }
