@@ -33,8 +33,8 @@ const Hero = () => {
             </div>
             <div className='hidden lg:flex lg:gap-x-12'>
                 <Link to='/#sobre' className='text-base font-semibold leading-6 text-white'>SOBRE</Link>
-                <Link to='/#instagram' className='text-base font-semibold leading-6 text-white'>INSTAGRAM</Link>
                 <Link to='/#sobremim' className='text-base font-semibold leading-6 text-white'>SOBRE MIM</Link>
+                <Link to='/#instagram' className='text-base font-semibold leading-6 text-white'>INSTAGRAM</Link>
                 <Link to='/#contato' className='text-base font-semibold leading-6 text-white'>CONTATO</Link>
             </div>
             <div className='hidden lg:flex lg:flex-1 lg:justify-end'></div>
@@ -65,12 +65,9 @@ const Hero = () => {
                     <div className='-my-6 divide-y divide-gray-50/200'>
                         <div className='space-y-2 py-6'>
                         <Link to='#sobre' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-gray-100 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>SOBRE</button></Link>
-                        <Link to='#instagram' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-gray-100 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>INSTAGRAM</button></Link>
                         <Link to='#sobremim' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-gray-100 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>SOBRE MIM</button></Link>
+                        <Link to='#instagram' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-gray-100 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>INSTAGRAM</button></Link>
                         <Link to='#contato' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-semibold leading-7 text-gray-100 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>CONTATO</button></Link>
-                        </div>
-                        <div className='py-6'>
-                        <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)} className='-mx-3 block rounded-lg px-3 py-2.5 text-xl font-semibold leading-7 text-gray-100 hover:bg-gray-50'>Tirar tambem?<span aria-hidden='true'> &rarr;</span></Link>
                         </div>
                     </div>
                     </div>
