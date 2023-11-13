@@ -2,10 +2,10 @@ import React from 'react'
 
 const SobreVinicius = () => {
     return (
-      <div className='bg-fundoGeral pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32'>        
+      <div className='bg-fundoGeral pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32' id='sobremim'>        
         <div className='bg-gray-900 pb-20 sm:pb-24 xl:pb-0 mt-10'>
           <div className='mx-auto flex flex-col-reverse items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:items-stretch xl:flex-row-reverse'>
-            <div className='-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none' id='sobremim'>
+            <div className='-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none' id='sobremimsm'>
               <div className='relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto'>
                 <img
                   className='lg:-mx-10 absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl'

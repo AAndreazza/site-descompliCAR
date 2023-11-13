@@ -5,7 +5,7 @@ import { getWhatsUrl } from '../utils/index.js'
 
 const CtaSection = () => {
     return(
-    <div className='bg-fundoGeral'>
+    <div className='bg-fundoGeral' id='contato'>
         <div className='relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center sm:px-16'>
           <h2 className='mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl'>
           Lorem ipsum dolor sit amet lorem ipsum

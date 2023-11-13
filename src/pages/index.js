@@ -10,6 +10,7 @@ import CtaSection2 from '../components/ctaSection2'
 import Footer from '../components/footer'
 import FaqSection from '../components/faqSection'
 
+
 const Index = () => {
     return(
         <div className='bg-fundoGeral'>

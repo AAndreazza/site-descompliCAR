@@ -1,6 +1,6 @@
 export const URLS = {
     whatsapp: 'https://wa.me/5547988735478?text=',
-    facebook: 'https://www.facebook.com/login/',
+    youtube: 'https://www.youtube.com/',
     instagram: 'https://www.instagram.com/guiadescomplicar',
     tiktok: 'https://www.tiktok.com',
   }
