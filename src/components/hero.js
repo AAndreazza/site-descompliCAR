@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { CTA_WHATSAPP_MENSAGENS, URLS } from '../utils/constants'
-import { getWhatsUrl } from '../utils/index.js'
+import { URLS } from '../utils/constants'
 import { Link } from 'gatsby'
 import Logo from '../images/logoSemNome.png'
 import FotoFundo from '../images/fotoHero.jpg'
