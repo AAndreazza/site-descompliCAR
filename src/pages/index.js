@@ -8,6 +8,7 @@ import SobreVinicius from '../components/sobreVinicius'
 import CtaSection from '../components/ctaSection'
 import CtaSection2 from '../components/ctaSection2'
 import Footer from '../components/footer'
+import FaqSection from '../components/faqSection'
 
 const Index = () => {
     return(
@@ -19,6 +20,7 @@ const Index = () => {
             <SobreVinicius />
             <Instagram />
             <CtaSection />
+            <FaqSection />
             <Footer />           
         </div>
     )
