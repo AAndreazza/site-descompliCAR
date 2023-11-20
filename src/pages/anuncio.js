@@ -3,9 +3,9 @@ import { Link } from 'gatsby'
 import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
 
-const Index = () => {
-  return (
-    <div className='bg-fundoGeral'>
+const Anuncio = () => {
+    return(
+        <div className='bg-fundoGeral'>
       <div className='mx-auto max-w-4xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16'>
         <div className='text-center'>
           <h1 className='mt-8 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-0 sm:text-4xl lg:text-6xl'>
@@ -49,7 +49,5 @@ const Index = () => {
         </div>
         <div className='bg-fundoGeral h-10'></div>
       </div>
-  );
-};
-
-export default Index;
+    )
+}
