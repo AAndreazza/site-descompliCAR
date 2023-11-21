@@ -12,7 +12,7 @@ const Index = () => {
             <div className='flex lg:flex-1'>
                 <Link to='/' className='cursor-pointer -m-1.5 p-1.5'>
                 <span className='sr-only'>DescompliCAR</span>
-                <img className='h-10 w-10 rounded-full' src={Logo} alt='logo'/>
+                <img className='h-12 w-12 rounded-full' src={Logo} alt='logo'/>
                 </Link>
             </div>
       </header>
