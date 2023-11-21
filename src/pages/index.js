@@ -8,17 +8,17 @@ import { URLS } from '../utils/constants'
 const Index = () => {
   return (
     <div className='bg-fundoGeral'>
-      <header className='absolute inset-x-10 top-6 z-50'>
+      <header className='absolute inset-x-6 sm:inset-x-10 top-6 z-50'>
             <div className='flex lg:flex-1'>
                 <Link to='/' className='cursor-pointer -m-1.5 p-1.5'>
                 <span className='sr-only'>DescompliCAR</span>
-                <img className='h-12 w-12 rounded-full' src={Logo} alt='logo'/>
+                <img className='h-10 w-10 sm:h-12 sm:w-12 rounded-full' src={Logo} alt='logo'/>
                 </Link>
             </div>
       </header>
       <div className='mx-auto max-w-4xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16'>
         <div className='text-center'>
-          <h1 className='mt-8 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-0 sm:text-4xl lg:text-6xl'>
+          <h1 className='mt-14 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-12 sm:text-4xl lg:text-6xl'>
             Lorem ipsum dolor sit amet lorem ipsum dolor
           </h1>
           <p className='max-w-4xl mt-4 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
