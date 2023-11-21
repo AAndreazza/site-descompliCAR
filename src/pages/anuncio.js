@@ -51,3 +51,5 @@ const Anuncio = () => {
       </div>
     )
 }
+
+export default Anuncio;
