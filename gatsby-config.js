@@ -7,7 +7,7 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-manifest',
             options: {
-                icon: 'src/images/logoSemNome.png',
+                icon: 'src/images/icon.png',
             }
         }
     ]
