@@ -55,13 +55,13 @@ const Index = () => {
         </div>
       </div>
 
-  <div class="bg-gray-900 py-24 sm:py-32 -mb-20">
+  <div class="bg-gray-900 py-24 sm:py-32 -mb-14 sm:-mb-20">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-4xl text-center">
       <h2 class="text-base -mt-14 font-semibold leading-7 text-[#a1b2ec]">SUPORTE</h2>
       <p class="mt-2 text-4xl font-bold tracking-tight text-gray-300 sm:text-5xl">Confira como funciona nosso suporte</p>
     </div>
-    <p class="mx-auto mt-6 max-w-2xl text-center text-xl leading-8 text-gray-400">Já foi na oficina e ficou desconfiado de algo? Com o descomplicar basta pedir um "help" que você vai saber tudo que precisa!</p>
+    <p class="mx-auto mt-6 max-w-2xl text-center text-xl leading-8 text-gray-400">Já foi na oficina e ficou desconfiado de algo? Com o descomplicar basta pedir um "help" que você vai saber tudo que precisa! </p>
 
     <div class="isolate mx-auto mt-12 grid max-w-md grid-cols-1 gap-y-8 sm:mt-12 lg:mx-0 lg:max-w-none lg:grid-cols-3">
       <div class="flex flex-col justify-between rounded-3xl bg-[#8a9bb3] p-8 ring-1 ring-gray-600 xl:p-10 lg:mt-8 lg:rounded-r-none">
@@ -108,21 +108,19 @@ const Index = () => {
       <footer class="bg-fundoGeral" aria-labelledby="footer-heading">
       <h2 id="footer-heading" class="sr-only">Footer</h2>
       <div class="mx-auto max-w-7xl px-6 pb-8 pt-10 sm:pt-24 lg:px-8 lg:pt-8">
-          <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div class="grid grid-cols-2 gap-8 xl:col-span-2">
+          
               <div class="md:gap-8">
               <div className='space-y-8'>
               <Link to='/'>
               <span className='sr-only'>DescompliCAR</span>
               <img className='h-12 w-12 rounded-full' src={Logo} alt='logo'/>
               </Link>
-              <p className='text-sm leading-6 text-gray-200'>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+              <p className='text-sm leading-6 text-gray-200'>Lorem ipsum dolor sit amet lorem ipsum dolor</p>
               
               </div>
               <div className='mt-4 border-t border-gray-900/10 pt-4'>
               <p className='text-xs leading-5 text-gray-300'>&copy; Nome. Todos os direitos reservados.</p>
-              </div>
-              </div> 
+              
               
           </div>
           </div>
