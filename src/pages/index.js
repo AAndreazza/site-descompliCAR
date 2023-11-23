@@ -3,29 +3,28 @@ import { Link } from 'gatsby'
 import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import { getWhatsUrl } from '../utils/index.js'
 import Logo from '../images/logoSemNome.png'
-import { URLS } from '../utils/constants'
 
 const Index = () => {
   return (
     <div className='bg-fundoGeral'>
-      <header className='absolute inset-x-6 sm:inset-x-10 top-6 z-50'>
-            <div className='flex lg:flex-1'>
-                <Link to='/' className='cursor-pointer -m-1.5 p-1.5'>
-                <span className='sr-only'>DescompliCAR</span>
-                <img className='h-10 w-10 sm:h-12 sm:w-12 rounded-full' src={Logo} alt='logo'/>
-                </Link>
-            </div>
+      <header className='absolute inset-x-6 sm:inset-x-10 top-8 z-50 flex justify-center'>
+
+        <Link to='/' className='cursor-pointer -m-1.5 p-1.5'>
+        <span className='sr-only'>DescompliCAR</span>
+        <img className='h-12 w-12 sm:h-18 sm:w-18 rounded-full' src={Logo} alt='logo'/>
+        </Link>
+            
       </header>
-      <div className='mx-auto max-w-4xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16'>
+      <div className='mx-auto max-w-6xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16'>
         <div className='text-center'>
-          <h1 className='mt-14 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-12 sm:text-4xl lg:text-6xl'>
-            Lorem ipsum dolor sit amet lorem ipsum dolor
+          <h1 className='mt-20 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-8 sm:text-4xl lg:text-6xl'>
+              Os mecânicos querem complicar o seu carro, mas nós estamos aqui para descomplicar
           </h1>
-          <p className='max-w-4xl mt-4 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
-            Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet
+          <p className='mt-10 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
+              Assista essa breve aula para nunca mais ser enganado em uma oficina
           </p>
         </div>
-        <div className='mt-16 text-center'>
+        <div className='mt-6 text-center sm:mx-36'>
           <iframe
             width='100%'
             height='350'
@@ -39,8 +38,23 @@ const Index = () => {
             Seu navegador não suporta a TAG video...
           </iframe>
         </div>
+        <div className='mt-10 flex items-center justify-center gap-x-6'>
+        {/*<Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}><button
+              className='transition ease-in-out delay-150 rounded-md bg-[#2B9C29] px-3.5 py-2.5 text-xl sm:text-2xl font-bold text-gray-200 shadow-sm 
+              hover:-translate-y-1 hover:scale-110 hover:bg-[#2B9C29] duration-300'
+            >
+              EU QUERO DESCOMPLICAR MEU CARRO
+  </button></Link> */}
+        <Link
+          to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}
+          className='animate-bounce motion-reduce rounded-md bg-[#2B9C29] px-3.5 py-2.5 text-xl sm:text-2xl text-center font-bold text-gray-200 shadow-2xl hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+        >
+          EU QUERO DESCOMPLICAR MEU CARRO
+        </Link>
+        </div>
       </div>
-        <div className='-mt-8 relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center sm:px-16'>
+
+        <div className='mt-8 relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center sm:px-16'>
           <h2 className='mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl'>
           Lorem ipsum dolor sit amet lorem ipsum
           </h2>
@@ -53,7 +67,7 @@ const Index = () => {
               to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}
               className='rounded-md bg-[#2B9C29] px-3.5 py-2.5 text-xl font-bold text-gray-200 shadow-sm hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
             >
-              COMPRAR AGORA
+              EU QUERO DESCOMPLICAR MEU CARRO
             </Link>
           </div>
         </div>
