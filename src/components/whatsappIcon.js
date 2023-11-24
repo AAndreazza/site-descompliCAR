@@ -1,13 +1,13 @@
 import React from 'react';
 import { getWhatsUrl } from '../utils/index.js'
-import { CTA_WHATSAPP_MENSAGENS} from '../utils/constants'
+import { CTA_WHATSAPP_MENSAGENS } from '../utils/constants'
 import { Link } from 'gatsby'
 import whatsappIcon from '../images/whatsappIcon.png';
 
 const whatsAppIcon = () => {
   return (
     <Link
-        to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}
+      to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaButton)}
       target='_blank'
     >
       <img

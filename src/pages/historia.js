@@ -11,7 +11,7 @@ import FaqSection from '../components/faqSection'
 
 
 const Historia = () => {
-    return(
+    return (
         <div className='bg-fundoGeral'>
             <Seo title='DescompliCAR' description='incluir descrição...' />
             <WhatsappIcon />
@@ -21,7 +21,7 @@ const Historia = () => {
             <Instagram />
             <CtaSection />
             <FaqSection />
-            <Footer />           
+            <Footer />
         </div>
     )
 }
