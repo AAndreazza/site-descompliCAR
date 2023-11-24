@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { URLS } from '../utils/constants'
 import { Link } from 'gatsby'
 import { Link as ScrollLink } from "react-scroll";
-import Logo from '../images/logoSemNome.png'
+import Logo from '../images/logoSimples.png'
 import FotoFundo from '../images/fotoHero.jpg'
 
 const Hero = () => {
