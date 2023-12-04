@@ -15,7 +15,7 @@ const HeroAnuncio = () => {
 
       <div className='mx-auto max-w-6xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16'>
         <div className='text-center'>
-          <h1 className='mt-20 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-8 sm:text-4xl lg:text-6xl'>
+          <h1 className='mt-20 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-8 sm:text-4xl lg:text-4xl'>
             Os mecânicos querem complicar o seu carro, mas nós estamos aqui para <a className='text-[#f77a28]'>descomplicar</a>
           </h1>
           <p className='mt-10 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
