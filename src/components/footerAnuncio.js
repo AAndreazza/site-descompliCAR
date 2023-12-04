@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Link } from 'gatsby'
 import LogoFooter from '../images/logoSimples.png'
 
@@ -15,15 +15,16 @@ const FooterAnuncio = () => {
                 <img className='h-12 w-12 rounded-full' src={LogoFooter} alt='logo' />
               </Link>
               <p className='text-sm leading-6 text-gray-200'>Lorem ipsum dolor sit amet lorem ipsum dolor</p>
-
             </div>
+
             <div className='mt-4 border-t border-gray-900/10 pt-4'>
               <p className='text-xs leading-5 text-gray-300'>&copy; Nome. Todos os direitos reservados.</p>
             </div>
+
           </div>
         </div>
       </footer>
-  );
-};
+  )
+}
 
-export default FooterAnuncio;
+export default FooterAnuncio

@@ -3,7 +3,6 @@ import { Disclosure } from '@headlessui/react'
 
 const FaqSection = () => {
   return (
-    <div className="pt-16">
       <div className="relative isolate overflow-hidden bg-gray-300 px-4 py-8 text-center sm:px-56">
         <h2 className='text-2xl text-center font-bold tracking-tight text-fundoGeral' id='instagram'>PERGUNTAS FREQUENTES</h2>
         {/*<h2 className='text-xl text-center font-normal mt-2 leading-8 tracking-tight text-gray-800'>Tem mais alguma pergunta? <Link to={getWhatsUrl(CTA_WHATSAPP_MENSAGENS.ctaGeral)}>Nos chame no Whatsapp  <span aria-hidden='true'>&rarr;</span></Link></h2>*/}
@@ -65,7 +64,6 @@ const FaqSection = () => {
         </Disclosure>
 
       </div>
-    </div>
   )
 }
 

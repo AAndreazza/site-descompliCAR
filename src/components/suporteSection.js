@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import fotoTeste from '../images/whatsapp.jpg'
 
 const SuporteSection = () => {
@@ -16,7 +16,6 @@ const SuporteSection = () => {
                 <div class="flex items-center justify-between gap-x-4">
                   <h3 id="tier-freelancer" class="text-xl text-center font-bold text-gray-900">Consulta do histórico de manutenção do veiculo e <br /> próximos serviços</h3>
                 </div>
-                {/*<p class="mt-4 text-sm leading-6 text-gray-600">Dedicated support and infrastructure for your company.</p>*/}
                 <div className='mt-6 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group-hover:opacity-75'>
                   <img src={fotoTeste} alt='' className='h-full w-full object-cover object-center' />
                 </div>
@@ -29,7 +28,6 @@ const SuporteSection = () => {
                 <div class="flex items-center justify-between gap-x-4">
                   <h3 id="tier-startup" class="text-xl ml-14 text-center font-bold text-gray-900">Análise de orçamentos</h3>
                 </div>
-                {/*<p class="mt-4 text-sm leading-6 text-gray-600">Dedicated support and infrastructure for your company.</p>*/}
                 <div className='mt-6 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group-hover:opacity-75'>
                   <img src={fotoTeste} alt='' className='h-full w-full object-cover object-center' />
                 </div>
@@ -40,7 +38,6 @@ const SuporteSection = () => {
               <div class="flex items-center justify-between gap-x-4">
                 <h3 id="tier-startup" class="text-xl sm:mt-6 ml-4 text-center font-bold text-gray-900">Avaliação de desgaste de peças</h3>
               </div>
-              {/*<p class="mt-4 text-sm leading-6 text-gray-600">Dedicated support and infrastructure for your company.</p>*/}
               <div className='mt-6 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group-hover:opacity-75'>
                 <img src={fotoTeste} alt='' className='h-full w-full object-cover object-center' />
               </div>
@@ -49,7 +46,7 @@ const SuporteSection = () => {
           </div>
         </div>
       </div>
-  );
-};
+  )
+}
 
-export default SuporteSection;
+export default SuporteSection
