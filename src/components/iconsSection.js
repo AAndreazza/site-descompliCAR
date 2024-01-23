@@ -17,7 +17,7 @@ const IconsSection = () => {
             </div>
             <div class="mx-auto flex max-w-xs flex-col gap-y-2 items-center">
               <img className='h-12 w-12 sm:h-24 sm:w-24' src={Garantia} alt='icone de garantia' />
-              <p class="text-base sm:text-lg font-bold text-gray-300">Garantia de 15 dias</p>
+              <p class="text-base sm:text-lg font-bold text-gray-300">Satisfação garantida</p>
             </div>
           </div>
         </div>

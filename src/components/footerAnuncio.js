@@ -18,7 +18,7 @@ const FooterAnuncio = () => {
             </div>
 
             <div className='mt-4 border-t border-gray-900/10 pt-4'>
-              <p className='text-xs leading-5 text-gray-300'>&copy; Nome. Todos os direitos reservados.</p>
+              <p className='text-xs leading-5 text-gray-300'>&copy; DescompliCAR. Todos os direitos reservados.</p>
             </div>
 
           </div>
