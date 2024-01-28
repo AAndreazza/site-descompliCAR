@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby'
-import LogoHero from '../images/logoDescompliCAR.png'
+import LogoHero from '../images/logoMaiorDescompliCAR.png'
 
 const HeroAnuncio = () => {
   return (
@@ -9,17 +9,17 @@ const HeroAnuncio = () => {
       <header className='absolute inset-x-20 sm:inset-x-10 top-8 z-50 flex justify-center'>
         <Link to='/' className='cursor-pointer -m-1.5 p-1.5'>
           <span className='sr-only'>DescompliCAR</span>
-          <img className='h-28 w-28 sm:h-32 sm:w-32 -mt-2 sm:-mt-4' src={LogoHero} alt='logo descompliCAR' />
+          <img className='h-32 w-40 sm:h-32 sm:w-40 -mt-2 sm:-mt-4' src={LogoHero} alt='logo descompliCAR' />
         </Link>
       </header>
 
       <div className='mx-auto max-w-6xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16 text-center'>
-          <h1 className='mt-28 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-14 sm:text-4xl lg:text-4xl'>
-            Os mecânicos querem complicar o seu carro, mas nós estamos aqui para <a className='text-[#f77a28]'>descomplicar</a>
-          </h1>
-          <p className='mt-10 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
-            Assista essa breve aula para nunca mais ser enganado em uma oficina
-          </p>
+        <h1 className='mt-32 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-14 sm:text-4xl lg:text-4xl'>
+          Os mecânicos querem complicar o seu carro, mas nós estamos aqui para <a className='text-[#f77a28]'>descomplicar</a>
+        </h1>
+        <p className='mt-10 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
+          Assista essa breve aula para nunca mais ser enganado em uma oficina
+        </p>
         <div className='mt-6 text-center sm:mx-36'>
           <iframe
             width='100%'
