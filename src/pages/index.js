@@ -10,7 +10,8 @@ import FooterAnuncio from '../components/footerAnuncio'
 const Index = () => {
   return (
     <div className='bg-fundoGeral'>
-      <Seo title='DescompliCAR' description='incluir descrição...' />
+      <Seo title='DescompliCAR - Nunca mais seja enganado por um mecânico' description='
+Aprenda sobre o seu carro, economize muito e nunca mais seja enganado quando levar o carro na oficina. Conte com um suporte personalizado, foi numa oficina e ficou alguma dúvida, basta entrar em contato que a gente te esclarece tudo!' />
       <WhatsappIcon />
       <HeroAnuncio />
       <IconsSection />
