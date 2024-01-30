@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby'
-import LogoHero from '../images/logoMaiorDescompliCAR.png'
+import LogoHero from '../images/logoDescompliCAR.png'
 
 const HeroAnuncio = () => {
   return (
@@ -9,7 +9,7 @@ const HeroAnuncio = () => {
       <header className='absolute inset-x-20 sm:inset-x-10 top-8 z-50 flex justify-center'>
         <Link to='/' className='cursor-pointer -m-1.5 p-1.5'>
           <span className='sr-only'>DescompliCAR</span>
-          <img className='h-32 w-40 sm:h-32 sm:w-40 -mt-2 sm:-mt-4' src={LogoHero} alt='logo descompliCAR' />
+          <img className='h-40 w-40 sm:h-40 sm:w-40 -mt-6 sm:-mt-8' src={LogoHero} alt='logo descompliCAR' />
         </Link>
       </header>
 
@@ -39,6 +39,7 @@ const HeroAnuncio = () => {
           <Link
             to=''
             className='animate-bounce motion-reduce rounded-md bg-[#2B9C29] px-4 py-4 text-xl sm:text-2xl text-center font-bold text-gray-200 shadow-2xl shadow-[#111c24] hover:bg-[#54a853] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+            target='_blank'
           >
             EU QUERO DESCOMPLICAR MEU CARRO
           </Link>
