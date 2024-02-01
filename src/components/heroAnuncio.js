@@ -9,12 +9,12 @@ const HeroAnuncio = () => {
       <header className='absolute inset-x-20 sm:inset-x-10 top-8 z-50 flex justify-center'>
         <Link to='/' className='cursor-pointer -m-1.5 p-1.5'>
           <span className='sr-only'>DescompliCAR</span>
-          <img className='h-40 w-40 sm:h-40 sm:w-40 -mt-6 sm:-mt-8' src={LogoHero} alt='logo descompliCAR' />
+          <img className='h-36 w-36 sm:h-40 sm:w-40 -mt-6 sm:-mt-8' src={LogoHero} alt='logo descompliCAR' />
         </Link>
       </header>
 
       <div className='mx-auto max-w-6xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16 text-center'>
-        <h1 className='mt-32 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-14 sm:text-4xl lg:text-4xl'>
+        <h1 className='mt-32 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-20 sm:text-4xl lg:text-4xl'>
           Os mecânicos querem complicar o seu carro, mas nós estamos aqui para <a className='text-[#f77a28]'>descomplicar</a>
         </h1>
         <p className='mt-10 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
