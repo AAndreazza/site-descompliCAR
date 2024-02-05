@@ -1,7 +1,7 @@
 import React from 'react';
-import AnaliseDesgastePeca from '../images/AnaliseDesgastePeca.jpg';
-import AnaliseOrcamento from '../images/AnaliseOrcamento.jpg';
-import PlanoManutencao from '../images/PlanoManutencao.jpg';
+import AnaliseDesgastePeca from '../images/AnaliseDesgastePeca.png';
+import AnaliseOrcamento from '../images/AnaliseOrcamento.png';
+import PlanoManutencao from '../images/PlanoManutencao.png';
 
 const SuporteSection = () => {
   return (

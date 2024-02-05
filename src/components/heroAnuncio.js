@@ -22,13 +22,13 @@ const HeroAnuncio = () => {
         </p>
         <div className='mt-6 text-center sm:mx-36'>
           <iframe
-            width='100%'
-            height='350'
-            src='https://www.youtube.com/embed/UqFWCoBDh7s?si=qi9Nk9fEzIvy46Ok'
-            title='YouTube video player'
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowFullScreen
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/TewaD89TPHo?si=NH_Xjfm2wPUqvcwY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
             className='mx-auto mb-10'
           >
             Seu navegador não suporta a TAG video...
@@ -37,7 +37,7 @@ const HeroAnuncio = () => {
 
         <div className='mt-16 flex items-center justify-center gap-x-6'>
           <Link
-            to=''
+            to='https://pay.kirvano.com/414355e3-a41b-4777-bfeb-545fb2fa205a'
             className='animate-bounce motion-reduce rounded-md bg-[#2B9C29] px-4 py-4 text-xl sm:text-2xl text-center font-bold text-gray-200 shadow-2xl shadow-[#111c24] hover:bg-[#54a853] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
             target='_blank'
           >
