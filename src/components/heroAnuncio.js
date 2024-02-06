@@ -13,23 +13,21 @@ const HeroAnuncio = () => {
         </Link>
       </header>
 
-      <div className='mx-auto max-w-6xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16 text-center'>
+      <div className='mx-auto max-w-6xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16 text-center lg:pr-10 lg:pl-10'>
         <h1 className='mt-32 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-20 sm:text-4xl lg:text-4xl'>
-          Os mecânicos querem complicar o seu carro, mas nós estamos aqui para <a className='text-[#f77a28]'>descomplicar</a>
+          Os mecânicos querem complicar o seu carro, mas <br/>nós estamos aqui para <a className='text-[#f77a28]'>descomplicar</a>
         </h1>
         <p className='mt-10 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
           Assista essa breve aula para nunca mais ser enganado em uma oficina
         </p>
         <div className='mt-6 text-center sm:mx-36'>
           <iframe
-            width="100%"
-            height="315"
             src="https://www.youtube.com/embed/TewaD89TPHo?si=NH_Xjfm2wPUqvcwY"
-            title="YouTube video player"
+            title="Como descompliCAR o seu carro!"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            className='mx-auto mb-10'
+            allowfullscreen="allowfullscreen"
+            className='w-full aspect-video mx-auto max-w-[22rem] lg:max-w-[53.25rem] mb-10'
           >
             Seu navegador não suporta a TAG video...
           </iframe>

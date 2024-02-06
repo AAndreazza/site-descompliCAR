@@ -9,7 +9,7 @@ const FaqSection = () => {
       <Disclosure>
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full text-lg justify-between rounded-lg bg-gray-200 px-4 py-2 mt-6 text-center font-medium text-gray-900 hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
+            <Disclosure.Button className="flex w-full text-lg justify-between rounded-lg bg-gray-200 px-4 py-2 mt-6 text-center font-medium text-gray-900 hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
               <span>Não tenho noção nenhuma sobre como funciona meu carro, o descomplicar é pra mim?</span>
               <svg xmlns="http://www.w3.org/2000/svg"
                 class={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
@@ -27,7 +27,7 @@ const FaqSection = () => {
       <Disclosure as="div" className="mt-2">
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full text-lg justify-between rounded-lg bg-gray-200 px-4 py-2 mt-4 text-center font-medium text-gray-900 hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
+            <Disclosure.Button className="flex w-full text-lg justify-between rounded-lg bg-gray-200 px-4 py-2 mt-4 text-center font-medium text-gray-900 hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
               <span>Me sinto inseguro de levar meu carro na oficina!</span>
               <svg xmlns="http://www.w3.org/2000/svg"
                 class={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
@@ -45,7 +45,7 @@ const FaqSection = () => {
       <Disclosure as="div" className="mt-2">
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full text-lg justify-between rounded-lg bg-gray-200 px-4 py-2 mt-4 text-center font-medium text-gray-900 hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
+            <Disclosure.Button className="flex w-full text-lg justify-between rounded-lg bg-gray-200 px-4 py-2 mt-4 text-center font-medium text-gray-900 hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
               <span>Mecânico é tudo picareta, nenhum presta!</span>
               <svg xmlns="http://www.w3.org/2000/svg"
                 class={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
@@ -63,7 +63,7 @@ const FaqSection = () => {
       <Disclosure as="div" className="mt-2">
         {({ open }) => (
           <>
-            <Disclosure.Button className="flex w-full text-lg justify-between rounded-lg bg-gray-200 px-4 py-2 mt-4 text-center font-medium text-gray-900 hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
+            <Disclosure.Button className="flex w-full text-lg justify-between rounded-lg bg-gray-200 px-4 py-2 mt-4 text-center font-medium text-gray-900 hover:bg-gray-50 focus:outline-none focus-visible:ring focus-visible:ring-gray-500/75">
               <span>Acabei de tirar minha carteira, o descomplicar vai me ajudar?</span>
               <svg xmlns="http://www.w3.org/2000/svg"
                 class={`${open ? 'bi bi-chevron-up rotate-180 transform' : ''
