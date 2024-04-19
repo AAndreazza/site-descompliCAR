@@ -5,7 +5,7 @@ import PlanoManutencao from '../images/PlanoManutencao.png';
 
 const SuporteSection = () => {
   return (
-    <div className="bg-[#13293e] py-24 sm:py-32 -mb-14 sm:-mb-20">
+    <div className="bg-[#13293e] py-24 sm:py-32 -mt-12 sm:-mt-20 -mb-14 sm:-mb-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="-mt-10 text-4xl font-bold tracking-tight text-gray-300 sm:text-5xl">Confira como funciona nosso suporte</p>
