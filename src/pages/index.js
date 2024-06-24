@@ -10,6 +10,8 @@ import FaqSection from '../components/faqSection'
 import FooterAnuncio from '../components/footerAnuncio'
 import { Helmet } from 'react-helmet'
 
+import Formulario from '../components/teste'
+
 const Index = () => {
   return (
     <div className='bg-fundoGeral'>
@@ -29,6 +31,8 @@ Aprenda sobre o seu carro, economize muito e nunca mais seja enganado quando lev
       </div>
       <SuporteSection />
       <FaqSection />
+      <Formulario />
+
       <FooterAnuncio />
     </div>
   )
