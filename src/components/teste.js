@@ -5,14 +5,14 @@ const Formulario = () => {
 
         <div className='isolate px-6 -mt-10 mb-20 lg:px-8 font-montserrat'>
 
-            <form name="index" method="POST" data-netlify="true" className='mx-auto mt-16 max-w-xl sm:mt-20 rounded-3xl p-8 ring-2 bg-black shadow-2xl'>
+            <form name="teste-descomplicar" method="POST" data-netlify="true" className='mx-auto mt-16 max-w-xl sm:mt-20 rounded-3xl p-8 ring-2 bg-black shadow-2xl'>
                 <input type='text' name='nome' id='nome' autocomplete='given-name' placeholder='Nome completo' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
                 <input type='email' name='email' id='email' autocomplete='email' placeholder='E-mail' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
                 <input type='tel' name='telefone' id='telefone' autocomplete='tel' placeholder='Celular com DDD' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
                 <textarea name='mensagem' id='mensagem' rows='4' placeholder='Mensagem' className='mt-2.5 block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 bg-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6' />
                 {/*<input type='hidden' name='_next' value='https://guiadescomplicar.com.br/' />
                 <input type='hidden' name='_captcha' value='false' />*/}
-                <input type="hidden" name="form-name" value="contact"></input>
+                <input type="hidden" action="index" name="form-name" value="teste-descomplicar"></input>
 
                 <div className='mt-10 sm:mt-10 mb-5 text-center'>
                     <button
