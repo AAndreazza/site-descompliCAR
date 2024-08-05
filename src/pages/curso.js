@@ -4,8 +4,8 @@ import Seo from '../components/seo'
 import HeroAnuncio from '../components/heroAnuncio'
 import FaqSection2 from '../components/faqSection2'
 import FooterAnuncio from '../components/footerAnuncio'
-import IconsSection from '../components/IconsSection'
-import SuporteSection from '../components/SuporteSection'
+import Icones from '../components/icones'
+import Suporte from '../components/suporte'
 
 const Curso = () => {
     return (
@@ -20,8 +20,8 @@ const Curso = () => {
 
             <div className='bg-[#13293e]'>
                 <HeroAnuncio />
-                <IconsSection />
-                <SuporteSection />
+                <Icones />
+                <Suporte />
                 <FaqSection2 />
                 <FooterAnuncio />
 
