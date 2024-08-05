@@ -14,8 +14,8 @@ const HeroAnuncio = () => {
       </header>
 
       <div className='mx-auto max-w-6xl p-6 sm:py-16 sm:px-8 lg:py-24 lg:px-16 text-center lg:pr-10 lg:pl-10'>
-        <h1 className='mt-32 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-20 sm:text-4xl lg:text-4xl'>
-          Os mecânicos querem complicar o seu carro, mas <br/>nós estamos aqui para <a className='text-[#f77a28]'>descomplicar</a>
+        <h1 className='mt-32 pr-4 pl-4 text-2xl font-bold tracking-tight text-white sm:mt-20 sm:text-4xl lg:text-4xl max-w-3xl mx-auto'>
+          Os mecânicos querem complicar o seu carro, mas nós estamos aqui para <a className='text-[#f77a28]'>descomplicar</a>
         </h1>
         <p className='mt-10 mx-auto text-base font-normal tracking-tight text-white sm:text-lg lg:text-2xl'>
           Assista essa breve aula para nunca mais ser enganado em uma oficina
@@ -35,8 +35,8 @@ const HeroAnuncio = () => {
 
         <div className='mt-16 flex items-center justify-center gap-x-6'>
           <Link
-            to='https://pay.kirvano.com/414355e3-a41b-4777-bfeb-545fb2fa205a'
-            className='animate-bounce motion-reduce rounded-md bg-[#2B9C29] px-4 py-4 text-xl sm:text-xl text-center font-bold text-gray-200 shadow-2xl shadow-[#111c24] hover:bg-[#54a853] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
+            to=''
+            className='animate-bounce motion-reduce rounded-md bg-[#2B9C29] px-4 py-4 text-base sm:text-xl text-center font-bold text-gray-200 shadow-2xl shadow-[#111c24] hover:bg-[#54a853] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white'
             target='_blank'
           >
             EU QUERO DESCOMPLICAR MEU CARRO

@@ -3,11 +3,8 @@ import { Helmet } from 'react-helmet'
 import Seo from '../components/seo'
 import Formulario from '../components/formulario'
 import SliderSection from '../components/sliderSection'
-import FaqSection from '../components/faqSection'
 import FaqSection2 from '../components/faqSection2'
 import FooterAnuncio from '../components/footerAnuncio'
-
-import img1 from '../images/banner.png'
 
 const Index = () => {
   return (

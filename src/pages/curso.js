@@ -2,10 +2,10 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Seo from '../components/seo'
 import HeroAnuncio from '../components/heroAnuncio'
-import IconsSection from '../components/iconsSection'
-import SuporteSection from '../components/suporteSection'
 import FaqSection2 from '../components/faqSection2'
 import FooterAnuncio from '../components/footerAnuncio'
+import IconsSection from '../components/IconsSection'
+import SuporteSection from '../components/SuporteSection'
 
 const Curso = () => {
     return (
