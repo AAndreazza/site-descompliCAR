@@ -65,7 +65,7 @@ const Formulario = () => {
         </div>
         
         <form
-                action='/sucesso/'
+                action='/instrucoes/'
                 name='FORMULARIO-DESCOMPLICAR'
                 method='post'
                 netlify-honeypot='bot-field'
