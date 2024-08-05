@@ -7,7 +7,7 @@ import Logo from '../images/logoSimples.png'
 
 const FooterAnuncio = () => {
   return (
-    <footer class="bg-fundoGeral" aria-labelledby="footer-heading">
+    <footer class="" aria-labelledby="footer-heading">
       <h2 id="footer-heading" class="sr-only">Footer</h2>
       <div class="mx-auto max-w-7xl px-6 pb-8 pt-10 sm:pt-24 lg:px-8 lg:pt-8">
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
