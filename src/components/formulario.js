@@ -1,8 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import Banner from '../images/banner.png'
 
 const Formulario = () => {
-    const [nome, setNome] = useState('');
+    /*const [nome, setNome] = useState('');
     const [email, setEmail] = useState('');
     const [telefone, setTelefone] = useState('');
     const [errors, setErrors] = useState({});
@@ -20,7 +20,7 @@ const Formulario = () => {
         if (!validateFields()) {
             event.preventDefault();
         }
-    };
+    };*/
 
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-34">
@@ -64,7 +64,8 @@ const Formulario = () => {
           </p>
         </div>
         
-        <form
+        <iframe width="540" height="500" src="https://1b87e9c0.sibforms.com/serve/MUIFAHtanbODO-Q_nJJjccj-uMj8BZXm_zBzLF-OYCscl8LYZ-PZU2PryJqs3KGW8z27xVQQ_rZwcIK0-e0bR56qrP0mgd2I7gC2HTdIRPEt7MJx05n5zf6jIE7Rjbi67-WDN_X1TBaIsRP81GVirUPfFhftfGHo2eHBxNEeeMYBILGGN-JsS3eNiO63yQullIC4yI_dyw2gcAkg" frameborder="0" allowfullscreen></iframe>
+        {/*<form
                 action='/instrucoes/'
                 name='FORMULARIO-DESCOMPLICAR'
                 method='post'
@@ -124,7 +125,7 @@ const Formulario = () => {
                         ENVIAR
                     </button>
                 </div>
-            </form>
+            </form>*/}
       </div>
     </div>
   )
