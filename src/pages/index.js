@@ -7,6 +7,7 @@ import FaqSection2 from '../components/faqSection2'
 import FooterAnuncio from '../components/footerAnuncio'
 import img1 from '../images/banner2.png'
 import Checklist from '../components/checklist'
+import Numeros from '../components/numeros'
 
 const Index = () => {
   return (
@@ -68,8 +69,10 @@ const Index = () => {
         </div>
       </section>
 
+      <Numeros />
+
       {/* STATES */}
-      <div className="bg-fundoGeral py-24 sm:py-24">
+      <div className="bg-[#13293e] py-24 sm:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="text-center">
@@ -81,19 +84,19 @@ const Index = () => {
               </p>
             </div>
             <dl className="mt-16 mx-4 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:mx-0 lg:grid-cols-4">
-              <div className="flex flex-col bg-gray-50/50 p-8">
+              <div className="flex flex-col bg-gray-200/75 p-8">
                 <dt className="text-sm font-semibold leading-6 text-[#13293e]">Lorem ipsum dolor sit amet consect</dt>
                 <dd className="order-first text-3xl font-semibold tracking-tight text-[#0d1c2b]">Lorem ipsum</dd>
               </div>
-              <div className="flex flex-col bg-gray-50/50 p-8">
+              <div className="flex flex-col bg-gray-200/75 p-8">
                 <dt className="text-sm font-semibold leading-6 text-[#13293e]">Lorem ipsum dolor sit amet consect</dt>
                 <dd className="order-first text-3xl font-semibold tracking-tight text-[#0d1c2b]">Lorem ipsum</dd>
               </div>
-              <div className="flex flex-col bg-gray-50/50 p-8">
+              <div className="flex flex-col bg-gray-200/75 p-8">
                 <dt className="text-sm font-semibold leading-6 text-[#13293e]">Lorem ipsum dolor sit amet consect</dt>
                 <dd className="order-first text-3xl font-semibold tracking-tight text-[#0d1c2b]">Lorem ipsum</dd>
               </div>
-              <div className="flex flex-col bg-gray-50/50 p-8">
+              <div className="flex flex-col bg-gray-200/75 p-8">
                 <dt className="text-sm font-semibold leading-6 text-[#13293e]">Lorem ipsum dolor sit amet consect</dt>
                 <dd className="order-first text-3xl font-semibold tracking-tight text-[#0d1c2b]">Lorem ipsum</dd>
               </div>
@@ -103,7 +106,7 @@ const Index = () => {
       </div>
 
       <section className="isolate overflow-hidden px-6 lg:px-8">
-        <div className="relative mx-auto max-w-4xl py-24 sm:py-24">
+        <div className="relative mx-auto max-w-4xl py-0 pb-20 sm:py-24">
           <figure className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-6 gap-y-8 lg:gap-x-10">
             <div className="relative col-span-1 lg:col-start-1 lg:row-start-1">
               <h3 className="text-2xl text-center sm:text-left font-semibold leading-8 text-gray-100 sm:text-3xl sm:leading-9">

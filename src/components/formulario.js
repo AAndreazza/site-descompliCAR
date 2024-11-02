@@ -64,7 +64,7 @@ const Formulario = () => {
           </p>
         </div>
         
-        <iframe width="540" height="500" src="https://1b87e9c0.sibforms.com/serve/MUIFAHtanbODO-Q_nJJjccj-uMj8BZXm_zBzLF-OYCscl8LYZ-PZU2PryJqs3KGW8z27xVQQ_rZwcIK0-e0bR56qrP0mgd2I7gC2HTdIRPEt7MJx05n5zf6jIE7Rjbi67-WDN_X1TBaIsRP81GVirUPfFhftfGHo2eHBxNEeeMYBILGGN-JsS3eNiO63yQullIC4yI_dyw2gcAkg" frameborder="0" allowfullscreen></iframe>
+        <iframe width="540" height="500" className="-ml-10 lg:-ml-14 -mt-8 lg:mt-0 -mb-36 w-full sm:w-96 lg:w-[540px] h-[500px]" src="https://1b87e9c0.sibforms.com/serve/MUIFAHtanbODO-Q_nJJjccj-uMj8BZXm_zBzLF-OYCscl8LYZ-PZU2PryJqs3KGW8z27xVQQ_rZwcIK0-e0bR56qrP0mgd2I7gC2HTdIRPEt7MJx05n5zf6jIE7Rjbi67-WDN_X1TBaIsRP81GVirUPfFhftfGHo2eHBxNEeeMYBILGGN-JsS3eNiO63yQullIC4yI_dyw2gcAkg" frameborder="0" allowfullscreen></iframe>
         {/*<form
                 action='/instrucoes/'
                 name='FORMULARIO-DESCOMPLICAR'
