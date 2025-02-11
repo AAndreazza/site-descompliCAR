@@ -14,17 +14,17 @@ const Checklist = () => {
                 />
             </div>
             <div className="mx-auto max-w-4xl text-center">
-                <h2 className="text-base/7 font-semibold text-indigo-400">CHECKLIST</h2>
-                <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-gray-200 sm:text-6xl">
-                    Choose the right plan for you
+                <h2 className="text-base/7 font-semibold text-indigo-400">BENEFÍCIOS</h2>
+                <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-gray-200 sm:text-5xl">
+                    O que você recebe?
                 </p>
             </div>
-            <p className="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-300 sm:text-xl/8">
+            {/*<p className="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-300 sm:text-xl/8">
                 Choose an affordable plan that's packed with the best features for engaging your audience, creating customer
                 loyalty, and driving sales.
-            </p>
+            </p>*/}
 
-            <div className="mx-auto mt-8 max-w-lg">
+            <div className="mx-auto mt-8 max-w-3xl">
                 <ul role="list" className="space-y-3 text-gray-300 sm:mt-10">
                     <li className="flex items-center gap-x-3 text-xl">
                         <CheckIcon
