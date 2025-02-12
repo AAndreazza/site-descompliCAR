@@ -9,6 +9,8 @@ import img1 from '../images/banner2.png'
 import Checklist from '../components/checklist'
 import Numeros from '../components/numeros'
 import Banner from '../images/banner.png'
+import Logo from '../images/icon.png';
+import { Link } from 'gatsby'
 
 const Index = () => {
   return (
@@ -21,6 +23,11 @@ const Index = () => {
         description='Aprenda sobre o seu carro, economize muito e nunca mais seja enganado quando levar o carro na oficina. Conte com um suporte personalizado, foi numa oficina e ficou alguma dúvida, basta entrar em contato que a gente te esclarece tudo!'
       />
 
+      <Link to='/'>
+        <span className='sr-only'>DescompliCAR</span>
+        <img className='h-12 w-12 rounded-full' src={Logo} alt='logo' />
+      </Link>
+
       {/* FORMULARIO + VIDEO */}
       <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-34">
         <img
@@ -29,29 +36,18 @@ const Index = () => {
           className="absolute inset-0 -z-10 h-full w-full object-cover"
         />
 
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          {/*<div className="mx-auto max-w-2xl lg:mx-0">
-                <h2 className="text-4xl font-bold tracking-tight text-white sm:text-4xl">Vai comprar um carro novo e não sabe nem por onde começar?</h2>
-                <p className="mt-6 text-xl leading-8 text-gray-300">
-                Eu preparei uma aula explicando passo a passo, desde a pesquisa até avalição do carro e fechamento do negócio!
-                </p>
-                <p className="mt-2 text-xl leading-8 text-gray-300">
+        <div className="mx-auto max-w-7xl">
+          <div className="mx-auto max-w-4xl text-center">
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Vai comprar um carro novo e não sabe nem por onde começar?</h1>
+            <p className="mt-6 text-xl leading-8 text-gray-300">
+              Aprenda exatamente o que verificar antes de comprar um carro e evite surpresas indesejadas!
+            </p>
+            {/*<p className="mt-2 text-xl leading-8 text-gray-300">
                 Preencha o formulário para ter <b className="text-[#dd814b]">acesso exclusivo</b> a <b className="text-[#6da8df]">aula</b> e mais um <b className="text-[#6da8df]">checklist para avaliação do carro!</b>
-                </p>
-              </div>*/}
-
-          <h2 className="text-4xl max-w-4xl mx-auto text-center font-bold tracking-tight text-white sm:text-5xl">Vai comprar um carro novo e não sabe nem por onde começar?</h2>
+                </p>*/}
+          </div>
 
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8">
-            <iframe
-              width="540"
-              height="500"
-              className="sm:mt-20 w-full sm:w-96 lg:w-[540px] h-[500px]"
-              src="https://1b87e9c0.sibforms.com/serve/MUIFAHtanbODO-Q_nJJjccj-uMj8BZXm_zBzLF-OYCscl8LYZ-PZU2PryJqs3KGW8z27xVQQ_rZwcIK0-e0bR56qrP0mgd2I7gC2HTdIRPEt7MJx05n5zf6jIE7Rjbi67-WDN_X1TBaIsRP81GVirUPfFhftfGHo2eHBxNEeeMYBILGGN-JsS3eNiO63yQullIC4yI_dyw2gcAkg"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-
             <iframe
               src="https://www.youtube.com/embed/TewaD89TPHo?si=NH_Xjfm2wPUqvcwY"
               title="Como descompliCAR o seu carro!"
@@ -62,17 +58,27 @@ const Index = () => {
             >
               Seu navegador não suporta a TAG video...
             </iframe>
+            <iframe
+              width="540"
+              height="500"
+              className="pt-20 w-full sm:w-96 lg:w-[540px] h-[500px]"
+              src="https://1b87e9c0.sibforms.com/serve/MUIFAHtanbODO-Q_nJJjccj-uMj8BZXm_zBzLF-OYCscl8LYZ-PZU2PryJqs3KGW8z27xVQQ_rZwcIK0-e0bR56qrP0mgd2I7gC2HTdIRPEt7MJx05n5zf6jIE7Rjbi67-WDN_X1TBaIsRP81GVirUPfFhftfGHo2eHBxNEeeMYBILGGN-JsS3eNiO63yQullIC4yI_dyw2gcAkg"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+
+
           </div>
         </div>
       </div>
 
       <Checklist />
 
-      {/* COR DE FUNDO ESCURA: [#13293e] */}
+      {/* COR DE FUNDO ESCURA: [#13293e] 
       <div className='bg-[#4676a3] py-2 whitespace-pre'>
         <p className='text-[#13293e] font-semibold text-center hidden lg:block'>DESCOMPLICAR     DESCOMPLICAR     DESCOMPLICAR     DESCOMPLICAR     DESCOMPLICAR</p>
         <p className='text-[#13293e] font-semibold text-center block lg:hidden'>DESCOMPLICAR     DESCOMPLICAR</p>
-      </div>
+      </div> */}
 
       <Numeros />
 
